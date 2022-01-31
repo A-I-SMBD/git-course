@@ -20,5 +20,6 @@
 
 Для установки 	имени: git config --global user.name "<userName>"
 				почты: git config --global user.email "<email>"
-	подключения к GitHub: "git remote add origin https://github.com/<userName>/git-course.git"
+	подключения к GitHub с помощью токена: 
+	"git remote set-url origin https://REPLACE-WITH-TOKEN@github.com/REPLACE-WITH-USERNAME/REPLACE-REPO-NAME.git/"
 	залития на GitHub: "git push -u origin master"
