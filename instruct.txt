@@ -23,3 +23,7 @@
 	подключения к GitHub с помощью токена: 
 	"git remote set-url origin https://REPLACE-WITH-TOKEN@github.com/REPLACE-WITH-USERNAME/REPLACE-REPO-NAME.git/"
 	залития на GitHub: "git push -u origin master"
+
+Для клонирования проекта: "git clone <HTTPS>"
+
+Для того, чтобы забрать последнюю версию с GitHub: "git pull"
