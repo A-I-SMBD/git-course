@@ -12,8 +12,13 @@
 
 Чтобы Git не трогал какие-либо файлы, их нужно внести в файл ".gitignore"
 
-Чтобы узнать, в какой мы ветке можно использовать "git branch"
-Чтобы создать новую ветку: "git branch <branchName>"
-Чтобы удалить ветку: "git branch -D <branchName>"
-Чтобы перейти на другую ветку: "git checkout readme"
+Чтобы 	узнать, в какой мы ветке можно использовать "git branch"
+		создать новую ветку: "git branch <branchName>"
+		удалить ветку: "git branch -D <branchName>"
+		перейти на другую ветку: "git checkout readme"
 Создание с последующим переключением на ветку: "git checkout -b new"
+
+Для установки 	имени: git config --global user.name "<userName>"
+				почты: git config --global user.email "<email>"
+	подключения к GitHub: "git remote add origin https://github.com/<userName>/git-course.git"
+	залития на GitHub: "git push -u origin master"
